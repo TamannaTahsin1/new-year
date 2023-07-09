@@ -63,18 +63,21 @@ body{
     width:  400px;
     height: 500px;
     padding-left: 270px;
+    padding-top: 100px;
+
 }
 .about-container{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    padding: 160px;
+    padding: 200px;
+
 }
 .section-description{
     color: var(--dark-02, #444343);
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
+    
 }
 ul > li{
     color: var(--dark-02, #444343);
@@ -82,3 +85,34 @@ ul > li{
     font-weight: 400;
     line-height: 26px;
 }
+/*my plans section*/
+#title{
+    text-align: center;
+    padding-top: 10px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px 100px;
+}
+.skill{
+    padding: 30px;
+}
+.skill-part{
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    border-radius: 8px;
+    width: 1000px;
+    height: 300px;
+    padding: 50px 530px 50px 530px;
+    
+}
+.headline{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+/*footer section*/
