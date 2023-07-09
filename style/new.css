@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+/*common shared styles*/
+body{
+    font-family: 'Abhaya Libre', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left; 
+
+}
+.banner{
+    padding: 0px 0px 0px 150px ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: justify;
+}
+
+.banner-title{
+    color: #151414;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.banner-description{
+    color: var(--dark-02, #444343);
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.banner-img{
+    width: 1200px;
+    height: 608px;
+    padding-left: 0px;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border:none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px; 
+}
